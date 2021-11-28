@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ScanMusic">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#17181a" >
+        <ImageView
+            android:id="@+id/iv_scan_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/iv_left_arrow_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描音频"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/iv_scan_back"
+            app:layout_constraintTop_toTopOf="@id/iv_scan_back"
+            app:layout_constraintBottom_toBottomOf="@id/iv_scan_back"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:background="#fff" >
+
+        <ImageView
+            android:id="@+id/iv_scanMusic1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/iv_music1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.171" />
+
+        <ImageView
+            android:id="@+id/iv_scanMusic2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/iv_music2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@id/iv_scanMusic1"
+            app:layout_constraintRight_toRightOf="@id/iv_scanMusic1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <Button
+            android:id="@+id/bt_scan_all"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="全盘扫描"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:background="@drawable/bt_scan_all"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            />
+        <Button
+            android:id="@+id/bt_scan_custom"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="自定义扫描"
+            android:textColor="#026795"
+            android:textSize="15sp"
+            android:background="@drawable/bt_scan_custom"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.6"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

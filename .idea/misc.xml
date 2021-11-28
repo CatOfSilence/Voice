@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/bt_click.xml" value="0.10729166666666666" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/bt_scan_all.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/bt_scan_custom.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/dialog_view.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/ed_search.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/floatinglayout.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/iv_lastmusic_click.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/iv_nextmusic_click.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/iv_pausemusic_click.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/iv_playmusic_press.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/seek_bar_progress.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/seekbar_background.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/seekbar_thumb.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/track.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/drawable/view_line.xml" value="0.26979166666666665" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_index.xml" value="0.18704710144927536" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_introduction.xml" value="0.21829710144927536" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_multiple_choice.xml" value="0.22282608695652173" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_music_player.xml" value="0.2" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_read_file.xml" value="0.264" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_scan_music.xml" value="0.4982698961937716" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_search.xml" value="0.4" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/activity_set.xml" value="0.2418478260869565" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/floating_service.xml" value="0.264" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/floatview.xml" value="0.2078804347826087" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/fragment_viewpager__all.xml" value="0.23777173913043478" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/fragment_viewpager__pick.xml" value="0.1" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/image_display.xml" value="0.19927536231884058" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/item.xml" value="0.1296875" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/listview_item_all.xml" value="0.4" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/listview_item_multiple.xml" value="0.22282608695652173" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/listview_item_pick.xml" value="0.18704710144927536" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/long_click_dialog_item.xml" value="0.264" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/main.xml" value="0.1296875" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/readfile_item.xml" value="0.264" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/recycler_item.xml" value="0.2" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/viewpager_item_all.xml" value="0.23777173913043478" />
+        <entry key="..\:/Workspace/VoiceCat/app/src/main/res/layout/viewpager_item_pick.xml" value="0.23777173913043478" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VoiceCat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!--状态栏颜色-->
+        <item name="colorPrimaryVariant">@color/bilibili_background_color</item>
+
+        <!--        透明状态栏-->
+        <!--        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>-->
+    </style>
+
+    <style name="Theme.VoiceCat.Index" parent="Theme.VoiceCat">
+        <!--        透明状态栏-->
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+
+        <!--加载背景图-->
+        <item name="android:windowBackground">@mipmap/iv_background</item>
+    </style>
+    <style name="Theme.VoiceCat.MusicPlayer" parent="Theme.VoiceCat">
+
+        <!--状态栏颜色-->
+        <item name="colorPrimaryVariant">@color/MusicPlayerBackGround</item>
+
+    </style>
+</resources>

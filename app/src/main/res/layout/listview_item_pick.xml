@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_pick_number"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#5A5A5A"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <ImageView
+            android:id="@+id/iv_pick1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/iv_music"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintLeft_toLeftOf="@id/tv_pick_number"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.8" />
+
+        <TextView
+            android:id="@+id/tv_voice_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红豆"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/iv_pick1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/tv_pick_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="方大同"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@id/iv_pick1"
+            app:layout_constraintLeft_toRightOf="@id/iv_pick1"
+            app:layout_constraintTop_toTopOf="@+id/iv_pick1" />
+
+        <TextView
+            android:id="@+id/tv_pick_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - 03:56"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintLeft_toRightOf="@id/tv_pick_singer"
+            app:layout_constraintBaseline_toBaselineOf="@id/tv_pick_singer"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
